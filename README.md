@@ -19,39 +19,41 @@ Investigate on the various categories of tools as follows:
 ### Step 3:
 Open terminal and try execute some kali linux commands
 
-
 ## ARP Attacks:  
 ARP spoofing: A hacker sends fake ARP packets that link an attacker's MAC address with an IP of a computer already on the LAN. 
 Boot kali and Windows7 virtual machines.
 In windows 7 give the command arp -a
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/240d7126-27ca-4a1e-9090-b26609897be9)
-From kali linux issue the command : sudo arpspoof -i eth0 -t
+<img width="770" height="714" alt="image" src="https://github.com/user-attachments/assets/b5dafd78-cd79-47d0-aa9c-dbe584c8970a" />
 
+
+## From kali linux issue the command :
+sudo arpspoof -i eth0 -t <target system> <gateway>
+## OUTPUT:
+<img width="679" height="594" alt="image" src="https://github.com/user-attachments/assets/2c43d23c-28f7-4fa9-8a66-186b730e1015" />
+
+
+ 
+ ## dsniff:
+
+In Metasploit open the ftp console as below. Also you can try other ftp websites ftp.vim.org
+## OUTPUT:
+
+<img width="699" height="673" alt="image" src="https://github.com/user-attachments/assets/27dd10f1-5dbe-4b4e-b6be-e15e4ffdf45d" />
+
+
+
+## WIRESHARK :
 
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/4608a842-86e7-4b95-82c2-8f7ec470f038)
-
-
-dsniff:In Metasploit open the ftp console as below. Also you can try other ftp websites ftp.vim.org
-
-
-## OUTPUT:
-![image](https://github.com/user-attachments/assets/f8ffa4a7-9b3d-4b74-b641-2c392b78a74f)
-
-
-
-
-In Kali issue the following commands: sudo dsnifff
-
-
-## OUTPUT:
-![image](https://github.com/user-attachments/assets/70052e7a-ef74-4ec9-a46f-2fefd915f6af)
-
-
+<img width="939" height="654" alt="image" src="https://github.com/user-attachments/assets/ad5cc8a5-335a-49e2-a1de-74785803656f" />
 
 Invoke the wireshark and examine the various menus  and controls of the tool:
-![image](https://github.com/user-attachments/assets/60ccccfa-a535-494e-bf93-30bdf93523dc)
+
+## ETTERCAP :
+ettercap supports active and passive dissection of many protocols and includes many features for network and host analysis.
+
+<img width="926" height="546" alt="image" src="https://github.com/user-attachments/assets/69fcac2d-9ba7-48cd-81d4-6b9931c1128d" />
 
 
 ## RESULT:
